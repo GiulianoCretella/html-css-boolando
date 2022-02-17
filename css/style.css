@@ -37,6 +37,7 @@ main{
     display: inline-block;
     background-color: blueviolet;
     position: absolute;
+<<<<<<< HEAD
     font-size: 0;
     display: none; */
 }
@@ -53,4 +54,12 @@ main{
 
 .img1:hover .img2{
   display: block;
+=======
+    top: 25px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+>>>>>>> parent of 8b346bf (index:pagina senza :hover)
 }
