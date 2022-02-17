@@ -37,3 +37,43 @@ s, .brand-text{
     padding: 10px;
     background-color: white;
 }
+
+figcaption{
+    margin:10px 0;
+}
+
+.sale{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 0, 51);
+   padding: 5px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 120px;
+    text-align: center;
+}
+
+.sustenibility{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(42, 112, 20);
+   padding: 5px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+    text-align: center;
+}
+.last-ticket{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(42, 112, 20);
+   padding: 5px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 120px;
+    text-align: center;
+}}
