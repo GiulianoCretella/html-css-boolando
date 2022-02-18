@@ -44,8 +44,6 @@ img{
     display: none;
     position: absolute;
     bottom: 0;
-
-    
 }
 
 .box:hover .box-2{
@@ -71,6 +69,7 @@ img{
 
 .heart:hover{
     color: red;
+    cursor: pointer;
 }
 
 .sale{
@@ -86,6 +85,8 @@ img{
     text-align: center;
     padding: 1px;
 }
+
+
 .sostenible{
     width: 100px;
     height: 30px;
