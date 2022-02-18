@@ -97,6 +97,16 @@ img{
     font-weight: bold;
     padding: 5px;
     text-align: center;
-
-
+}
+.sostenible1{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    bottom: 30px ;
+    left: 0px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
 }
