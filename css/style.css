@@ -6,20 +6,21 @@
 
 main{
     width: 90%;
-    margin: 0 auto;
+    margin: 30px auto;
+    font-size: 0;
 }
 
 .text{
    margin-left: 5px;
    margin-bottom: 20px;
+   font-size: 16px;
  }
 
 
 .box-container{
-    width: calc(100% / 3 - 50px); 
     display: inline-block;
-    margin:;
-
+    margin: 20px;
+    width: calc(100% / 3)( - 40px);
 }
 img{
     width: 100%;
@@ -27,11 +28,12 @@ img{
 }
 
 .box{
-    width: 450px;
-    height: 700px;
+    width: 350px;
+    height: 500px;
     background-color: bisque;
     display: inline-block;
     position: relative;
+    font-size: 15px;
 }
 
 .box-2{
@@ -40,7 +42,10 @@ img{
     height: 100%;
     background-color: rgb(176, 128, 55);
     display: none;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+
+    
 }
 
 .box:hover .box-2{
@@ -73,8 +78,9 @@ img{
     height: 30px;
     background-color: red;
     font-weight: bold;
-    position: absolute;
     bottom: 30px;
+    left: 0;
+    position: absolute;
     font-size: 20px;
     color: white;
     text-align: center;
